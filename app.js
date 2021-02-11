@@ -29,7 +29,6 @@ array where the first element is the product of those numbers, and the second el
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-
 function multiply(a, b) {
   let sum = a * b;
   return [sum, 'The product of ' + a + ' and ' + b + ' is ' + sum + '.'];
