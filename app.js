@@ -93,7 +93,8 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 function sumArray(sumArr) {
   let tArray = testArray[0]+testArray[1]+testArray[2];
   
-  return [tArray , '2,3,4 was passed in as an array of numbers, and 9 is their sum.' ]
+  return [tArray , testArray +   ' was passed in as an array of numbers, and ' + tArray + ' is their sum.' ]
+  
 
 
 }
@@ -121,7 +122,7 @@ Test this function by hand in the console to get it working, and when you think 
  
 function multiplyArray(multArr) {
   let  multiply = (testArray[0]*testArray[1]*testArray[2] );
-return [multiply , "The numbers 2,3,4 have a product of 24." ]
+return [multiply , 'The numbers ' + testArray + ' have a product of ' + multiply + '.' ]
 
 }
 console.log(multiplyArray(testArray));
